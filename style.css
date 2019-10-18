@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(233, 232, 232);
+    margin-top: 40px;
+}
+
+#muscles {
+    margin: 10px;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.title:not(:first-child) {
+    margin-top: 80px;
+}
+
+.card {
+    background: #eeeeee;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.25);
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.card > .label {
+    font-weight: 800;
+}
+
+.card > ul {
+    list-style-position: inside;
+    padding-bottom: 10px;
+}
+
+.card > ul:last-child {
+    padding-bottom: 0;
+}
+
+@media only screen and (min-width: 700px) {
+    #muscles {
+        width: 55%;
+        margin: 0 auto;
+    }
+}
