@@ -7,7 +7,9 @@
             "os occipitale",
             "via het lig. nuchae aan de processus spinosi C1 tot en met C7"
         ],
-        "insertion": "Laterale derde deel clavicula",
+        "insertion": [
+            "Laterale derde deel clavicula"
+        ],
         "function": [
             "Trekt de scapula naar boven en draait deze naar buiten",
             "Neight het hoofd naar de ipsilaterale zijde en draait het naar de contralaterale zijde"
@@ -18,7 +20,9 @@
         "origin": [
             "processus spinosi T1 tot en met T4"
         ],
-        "insertion": "acromion",
+        "insertion": [
+            "acromion"
+        ],
         "function": [
             "Verschuift het scapula naar mediaal"
         ]
@@ -28,7 +32,9 @@
         "origin": [
             "processus spinosi T5 tot en met T12"
         ],
-        "insertion": "spina scapulae",
+        "insertion": [
+            "spina scapulae"
+        ],
         "function": [
             "Verschuift het scapula naar mediocaudaal"
         ]
@@ -38,7 +44,9 @@
         "origin": [
             "processus spinosi C6 en C7"
         ],
-        "insertion": "Margo medialis (*boven* de spina scapulae)",
+        "insertion": [
+            "Margo medialis (*boven* de spina scapulae)"
+        ],
         "function": [
             "Fixatie van de scapula",
             "Trekt de scapula naar craniaal-mediaal"
@@ -49,7 +57,9 @@
         "origin": [
             "processus spinosi T1 en T4"
         ],
-        "insertion": "Margo medialis (*onder* de spina scapulae)",
+        "insertion": [
+            "Margo medialis (*onder* de spina scapulae)"
+        ],
         "function": [
             "Fixatie van de scapula",
             "Trekt de scapula naar craniaal-mediaal"
@@ -60,7 +70,9 @@
         "origin": [
             "processus transversi C1 tot en met C4"
         ],
-        "insertion": "Angulus superior",
+        "insertion": [
+            "Angulus superior"
+        ],
         "function": [
             "Trekt de scapula naar craniaal-mediaal",
             "Draait de angulus inferior naar mediaal"
@@ -71,7 +83,9 @@
         "origin": [
             "Costae 1 tot en met Costae 9"
         ],
-        "insertion": "Angulus superior",
+        "insertion": [
+            "Angulus superior"
+        ],
         "function": [
             "Verschuiven van de scapula naar ventro-lateraal",
             "Heffen van de ribben bij gefixeerde schoudergordel (hulpademhalingsspier)",
@@ -83,7 +97,9 @@
         "origin": [
             "Costae 1 tot en met Costae 9"
         ],
-        "insertion": "Margo medialis",
+        "insertion": [
+            "Margo medialis"
+        ],
         "function": [
             "Verschuiven van de scapula naar ventro-lateraal",
             "Heffen van de ribben bij gefixeerde schoudergordel (hulpademhalingsspier)"
