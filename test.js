@@ -791,7 +791,7 @@ const data = [
         ],
         "function": [
             "Extensie in het heupgewricht",
-            "Endorotatie in het heupgewricht",
+            "Exorotatie in het heupgewricht",
             "Stabiliseert het heupgewricht zowel in het sagittale als ook in het frontale vlak",
             "Abductie"
         ]
@@ -808,7 +808,7 @@ const data = [
         ],
         "function": [
             "Extensie in het heupgewricht",
-            "Endorotatie in het heupgewricht",
+            "Exorotatie in het heupgewricht",
             "Stabiliseert het heupgewricht zowel in het sagittale als ook in het frontale vlak",
             "Adductie"
         ]
