@@ -771,7 +771,7 @@
         "name": "Gluteus maximus caudale vezels",
         "origin": [
             "Zijgedeelte van de facies dorsalis van het os sacrum",
-            "Achterste deel van de dacies glutea van het os ilium",
+            "Achterste deel van de facies glutea van het os ilium",
             "Fascia thoracolumbalis en met diepe vezels aan het lig. sacrotuberale"
         ],
         "insertion": [
@@ -998,22 +998,21 @@
     },
 
     // Batch 7
-
-    {
-        "name": "Psoas major diepe laag",
-        "origin": [
-            "Proccessus costarii van de L1 tot en met L5"
-        ],
-        "insertion": [
-            "Gezamelijk als m. iliopsoas aan de trochantor minor van het femur"
-        ],
-        "function": [
-            "Flexie in het heupgewricht",
-            "Exorotatie in het heupgewricht",
-            "Lendenwervelkolom: Bij eenzijdige contractie laterale flexie naar de ipsilaterale zijde",
-            "Lendenwervelkolom: Bij tweezijdige contractie oprichten van de romp uit rugligging"
-        ]
-    },
+    // {
+    //     "name": "Psoas major diepe laag",
+    //     "origin": [
+    //         "Proccessus costarii van de L1 tot en met L5"
+    //     ],
+    //     "insertion": [
+    //         "Gezamelijk als m. iliopsoas aan de trochantor minor van het femur"
+    //     ],
+    //     "function": [
+    //         "Flexie in het heupgewricht",
+    //         "Exorotatie in het heupgewricht",
+    //         "Lendenwervelkolom: Bij eenzijdige contractie laterale flexie naar de ipsilaterale zijde",
+    //         "Lendenwervelkolom: Bij tweezijdige contractie oprichten van de romp uit rugligging"
+    //     ]
+    // },
     {
         "name": "Sartorius",
         "origin": [
@@ -1330,6 +1329,76 @@
         "function": [
             "Plantaire flexie in het bovenste spronggewricht",
             "Eversie in het onderste spronggewricht"
+        ]
+    },
+
+    {
+        "name": "Teres major",
+        "origin": [
+            "Angulus inferior van de scapula"
+        ],
+        "insertion": [
+            "Crista tuberculi minoris van de humerus"
+        ],
+        "function": [
+            "Endorotatie",
+            "Adductie",
+            "Retroversie"
+        ]
+    },
+    {
+        "name": "Piriformis",
+        "origin": [
+            "Facies pelvina van het os sacrum"
+        ],
+        "insertion": [
+            "Punt van de trochantor major van het femur"
+        ],
+        "function": [
+            "Exorotatie in het heupgewricht",
+            "Abductie in het heupgewricht",
+            "Extensie in het heupgewricht",
+            "Stabilisatie in het heupgewricht"
+        ]
+    },
+    {
+        "name": "Gemellus inferior",
+        "origin": [
+            "Tuber ischiadicum van het os ischii"
+        ],
+        "insertion": [
+            "Samen met de aanhechtingspees van de m. obturatorius internus in de fossa trochanterica"
+        ],
+        "function": [
+            "Exorotatie in het heupgewricht",
+            "Adductie in het heupgewricht",
+            "Extensie in het heupgewricht"
+        ]
+    },
+    {
+        "name": "Vastus intermedius",
+        "origin": [
+            "Voorzijde van de femurschacht"
+        ],
+        "insertion": [
+            "Via het lig. patellae aan de tuberositas tibiae"
+        ],
+        "function": [
+            "Extensie in het kniegewricht"
+        ]
+    },
+    {
+        "name": "Extensor carpi ulnaris",
+        "origin": [
+            "Caput commune (epicondylus medialis van de humerus)",
+            "Caput ulnare (dorsale zijde van de ulna)"
+        ],
+        "insertion": [
+            "Basis van het os metacarpi 5"
+        ],
+        "function": [
+            "Dorsaalflexie",
+            "Ulnair deviatie"
         ]
     },
 ]

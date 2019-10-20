@@ -20,9 +20,7 @@ const data = [
             "os occipitale",
             "via het lig. nuchae aan de processus spinosi C1 tot en met C7"
         ],
-        "insertion": [
-            "Laterale derde deel clavicula"
-        ],
+        "insertion": "Laterale derde deel clavicula",
         "function": [
             "Trekt de scapula naar boven en draait deze naar buiten",
             "Neight het hoofd naar de ipsilaterale zijde en draait het naar de contralaterale zijde"
@@ -33,9 +31,7 @@ const data = [
         "origin": [
             "processus spinosi T1 tot en met T4"
         ],
-        "insertion": [
-            "acromion"
-        ],
+        "insertion": "acromion",
         "function": [
             "Verschuift het scapula naar mediaal"
         ]
@@ -45,9 +41,7 @@ const data = [
         "origin": [
             "processus spinosi T5 tot en met T12"
         ],
-        "insertion": [ 
-            "spina scapulae"
-        ],
+        "insertion": "spina scapulae",
         "function": [
             "Verschuift het scapula naar mediocaudaal"
         ]
@@ -57,9 +51,7 @@ const data = [
         "origin": [
             "processus spinosi C6 en C7"
         ],
-        "insertion": [
-            "Margo medialis (*boven* de spina scapulae)"
-        ],
+        "insertion": "Margo medialis (*boven* de spina scapulae)",
         "function": [
             "Fixatie van de scapula",
             "Trekt de scapula naar craniaal-mediaal"
@@ -70,9 +62,7 @@ const data = [
         "origin": [
             "processus spinosi T1 en T4"
         ],
-        "insertion": [
-            "Margo medialis (*onder* de spina scapulae)"
-        ],
+        "insertion": "Margo medialis (*onder* de spina scapulae)",
         "function": [
             "Fixatie van de scapula",
             "Trekt de scapula naar craniaal-mediaal"
@@ -83,9 +73,7 @@ const data = [
         "origin": [
             "processus transversi C1 tot en met C4"
         ],
-        "insertion": [
-            "Angulus superior"
-        ],
+        "insertion": "Angulus superior",
         "function": [
             "Trekt de scapula naar craniaal-mediaal",
             "Draait de angulus inferior naar mediaal"
@@ -96,9 +84,7 @@ const data = [
         "origin": [
             "Costae 1 tot en met Costae 9"
         ],
-        "insertion": [ 
-            "Angulus superior" 
-        ],
+        "insertion": "Angulus superior",
         "function": [
             "Verschuiven van de scapula naar ventro-lateraal",
             "Heffen van de ribben bij gefixeerde schoudergordel (hulpademhalingsspier)",
@@ -110,9 +96,7 @@ const data = [
         "origin": [
             "Costae 1 tot en met Costae 9"
         ],
-        "insertion": [
-            "Margo medialis"
-        ],
+        "insertion": "Margo medialis",
         "function": [
             "Verschuiven van de scapula naar ventro-lateraal",
             "Heffen van de ribben bij gefixeerde schoudergordel (hulpademhalingsspier)"
@@ -1027,22 +1011,21 @@ const data = [
     },
 
     // Batch 7
-
-    {
-        "name": "Psoas major diepe laag",
-        "origin": [
-            "Proccessus costarii van de L1 tot en met L5"
-        ],
-        "insertion": [
-            "Gezamelijk als m. iliopsoas aan de trochantor minor van het femur"
-        ],
-        "function": [
-            "Flexie in het heupgewricht",
-            "Exorotatie in het heupgewricht",
-            "Lendenwervelkolom: Bij eenzijdige contractie laterale flexie naar de ipsilaterale zijde",
-            "Lendenwervelkolom: Bij tweezijdige contractie oprichten van de romp uit rugligging"
-        ]
-    },
+    // {
+    //     "name": "Psoas major diepe laag",
+    //     "origin": [
+    //         "Proccessus costarii van de L1 tot en met L5"
+    //     ],
+    //     "insertion": [
+    //         "Gezamelijk als m. iliopsoas aan de trochantor minor van het femur"
+    //     ],
+    //     "function": [
+    //         "Flexie in het heupgewricht",
+    //         "Exorotatie in het heupgewricht",
+    //         "Lendenwervelkolom: Bij eenzijdige contractie laterale flexie naar de ipsilaterale zijde",
+    //         "Lendenwervelkolom: Bij tweezijdige contractie oprichten van de romp uit rugligging"
+    //     ]
+    // },
     {
         "name": "Sartorius",
         "origin": [
@@ -1359,6 +1342,76 @@ const data = [
         "function": [
             "Plantaire flexie in het bovenste spronggewricht",
             "Eversie in het onderste spronggewricht"
+        ]
+    },
+
+    {
+        "name": "Teres major",
+        "origin": [
+            "Angulus inferior van de scapula"
+        ],
+        "insertion": [
+            "Crista tuberculi minoris van de humerus"
+        ],
+        "function": [
+            "Endorotatie",
+            "Adductie",
+            "Retroversie"
+        ]
+    },
+    {
+        "name": "Piriformis",
+        "origin": [
+            "Facies pelvina van het os sacrum"
+        ],
+        "insertion": [
+            "Punt van de trochantor major van het femur"
+        ],
+        "function": [
+            "Exorotatie in het heupgewricht",
+            "Abductie in het heupgewricht",
+            "Extensie in het heupgewricht",
+            "Stabilisatie in het heupgewricht"
+        ]
+    },
+    {
+        "name": "Gemellus inferior",
+        "origin": [
+            "Tuber ischiadicum van het os ischii"
+        ],
+        "insertion": [
+            "Samen met de aanhechtingspees van de m. obturatorius internus in de fossa trochanterica"
+        ],
+        "function": [
+            "Exorotatie in het heupgewricht",
+            "Adductie in het heupgewricht",
+            "Extensie in het heupgewricht"
+        ]
+    },
+    {
+        "name": "Vastus intermedius",
+        "origin": [
+            "Voorzijde van de femurschacht"
+        ],
+        "insertion": [
+            "Via het lig. patellae aan de tuberositas tibiae"
+        ],
+        "function": [
+            "Extensie in het kniegewricht"
+        ]
+    },
+    {
+        "name": "Extensor carpi ulnaris",
+        "origin": [
+            "Caput commune (epicondylus medialis van de humerus)",
+            "Caput ulnare (dorsale zijde van de ulna)"
+        ],
+        "insertion": [
+            "Basis van het os metacarpi 5"
+        ],
+        "function": [
+            "Dorsaalflexie",
+            "Ulnair deviatie"
         ]
     },
 ];
