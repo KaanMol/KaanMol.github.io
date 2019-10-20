@@ -1,0 +1,59 @@
+[
+    {
+        "region": "upper_body",
+        "parts": [
+            {
+                "type": "bone",
+                "name": "Scapula",
+                "image": null,
+                "structures": [
+                    {
+                        "type": "bone_point",
+                        "name": "Angulus superior",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Angulus inferior",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Margo medialis",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Margo lateralis",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Margo superior",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Fossa infraspinata",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Fossa supraspinata",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Fossa subscapularis",
+                        "image": null
+                    },
+                    {
+                        "type": "bone_point",
+                        "name": "Spina scapulae",
+                        "image": null
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "joint": "Humeri",
+        "rangeOfMotion": [
+            {
+                "type": "Abductie",
+                "excercises": [
+                    {
+                        "name": "Staand tegen een muur",
+                        "levels": [
+                            {
+                                "level": 0,
+                                "desc": "Omhoog lopen tegen een muur"
+                            },
+                            {
+                                "level": 1,
+                                "desc": "Arm zo hoog als je kan en doordrukken"
+                            },
+                            {
+                                "level": 2,
+                                "desc": "D.m.v. een voorwerp (bijv. een bal) ruimte creëren tussen de persoon en de muur om zo verder in abductie te drukken"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Liggend",
+                        "levels": [
+                            {
+                                "level": 0,
+                                "desc": "Op je rug je arm naar boven doen"
+                            },
+                            {
+                                "level": 1,
+                                "desc": "Op je zij liggen met je arm naar boven"
+                            },
+                            {
+                                "level": 2,
+                                "desc": "D.m.v. een voorwerp (bijv. een bal) ruimte creëren tussen de persoon en de ondergrond om zo verder in abductie te drukken"
+                            }
+                        ]
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        "joint": "Cubuti",
+        "rangeOfMotion": [
+            {
+                "type": "Flexie",
+                "excercises": [
+                    {
+                        "name": "",
+                        "levels": [
+                            {
+                                "level": 0,
+                                "desc": "Je arm zelf in een flexie brengen"
+                            },
+                            {
+                                "level": 1,
+                                "desc": "Zelf je elleboog verder drukken"
+                            },
+                            {
+                                "level": 2,
+                                "desc": "Een muur gebruiken om je arm nog verder te drukken"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Liggend",
+                        "levels": [
+                            {
+                                "level": 0,
+                                "desc": "Op je rug je arm naar boven doen"
+                            },
+                            {
+                                "level": 1,
+                                "desc": "Op je zij liggen met je arm naar boven"
+                            },
+                            {
+                                "level": 2,
+                                "desc": "D.m.v. een voorwerp (bijv. een bal) ruimte creëren tussen de persoon en de ondergrond om zo verder in abductie te drukken"
+                            }
+                        ]
+                    },
+                ]
+            }
+        ]
+    }
+]

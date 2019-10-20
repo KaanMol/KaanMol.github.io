@@ -1,17 +1,4 @@
-// class Test {
-//     _element; 
-    
-
-//     constructor() {
-//         this._element = document.getElementById("test");
-//     }
-// };
-
-// let test;
-
-// (() => { test = new Test() })();
-
-const data = [
+[
     // Batch 0
 
     {
@@ -20,9 +7,7 @@ const data = [
             "os occipitale",
             "via het lig. nuchae aan de processus spinosi C1 tot en met C7"
         ],
-        "insertion": [
-            "Laterale derde deel clavicula"
-        ],
+        "insertion": "Laterale derde deel clavicula",
         "function": [
             "Trekt de scapula naar boven en draait deze naar buiten",
             "Neight het hoofd naar de ipsilaterale zijde en draait het naar de contralaterale zijde"
@@ -33,9 +18,7 @@ const data = [
         "origin": [
             "processus spinosi T1 tot en met T4"
         ],
-        "insertion": [
-            "acromion"
-        ],
+        "insertion": "acromion",
         "function": [
             "Verschuift het scapula naar mediaal"
         ]
@@ -45,9 +28,7 @@ const data = [
         "origin": [
             "processus spinosi T5 tot en met T12"
         ],
-        "insertion": [ 
-            "spina scapulae"
-        ],
+        "insertion": "spina scapulae",
         "function": [
             "Verschuift het scapula naar mediocaudaal"
         ]
@@ -57,9 +38,7 @@ const data = [
         "origin": [
             "processus spinosi C6 en C7"
         ],
-        "insertion": [
-            "Margo medialis (*boven* de spina scapulae)"
-        ],
+        "insertion": "Margo medialis (*boven* de spina scapulae)",
         "function": [
             "Fixatie van de scapula",
             "Trekt de scapula naar craniaal-mediaal"
@@ -70,9 +49,7 @@ const data = [
         "origin": [
             "processus spinosi T1 en T4"
         ],
-        "insertion": [
-            "Margo medialis (*onder* de spina scapulae)"
-        ],
+        "insertion": "Margo medialis (*onder* de spina scapulae)",
         "function": [
             "Fixatie van de scapula",
             "Trekt de scapula naar craniaal-mediaal"
@@ -83,9 +60,7 @@ const data = [
         "origin": [
             "processus transversi C1 tot en met C4"
         ],
-        "insertion": [
-            "Angulus superior"
-        ],
+        "insertion": "Angulus superior",
         "function": [
             "Trekt de scapula naar craniaal-mediaal",
             "Draait de angulus inferior naar mediaal"
@@ -96,9 +71,7 @@ const data = [
         "origin": [
             "Costae 1 tot en met Costae 9"
         ],
-        "insertion": [ 
-            "Angulus superior" 
-        ],
+        "insertion": "Angulus superior",
         "function": [
             "Verschuiven van de scapula naar ventro-lateraal",
             "Heffen van de ribben bij gefixeerde schoudergordel (hulpademhalingsspier)",
@@ -110,9 +83,7 @@ const data = [
         "origin": [
             "Costae 1 tot en met Costae 9"
         ],
-        "insertion": [
-            "Margo medialis"
-        ],
+        "insertion": "Margo medialis",
         "function": [
             "Verschuiven van de scapula naar ventro-lateraal",
             "Heffen van de ribben bij gefixeerde schoudergordel (hulpademhalingsspier)"
@@ -800,7 +771,7 @@ const data = [
         "name": "Gluteus maximus caudale vezels",
         "origin": [
             "Zijgedeelte van de facies dorsalis van het os sacrum",
-            "Achterste deel van de facies glutea van het os ilium",
+            "Achterste deel van de dacies glutea van het os ilium",
             "Fascia thoracolumbalis en met diepe vezels aan het lig. sacrotuberale"
         ],
         "insertion": [
@@ -1361,77 +1332,4 @@ const data = [
             "Eversie in het onderste spronggewricht"
         ]
     },
-];
-
-(() => {
-    const container = document.getElementById("muscles");
-    
-    for (let muscle = 0; muscle < data.length; muscle++) {
-        const card = document.createElement("div");
-        card.classList.add("card");
-        
-        const nameLabel = document.createElement("div");
-        nameLabel.classList.add("label");
-        nameLabel.innerText = "Naam";
-        
-        const nameList = document.createElement("ul");
-        const nameItem = document.createElement("li");
-        nameItem.innerHTML = data[muscle].name;
-        nameList.appendChild(nameItem);
-
-        const originLabel = document.createElement("div");
-        originLabel.classList.add("label");
-        originLabel.innerText = "Origo";
-
-        const originList = document.createElement("ul");
-        for (let origin = 0; origin < data[muscle].origin.length; origin++) {
-            const originItem = document.createElement("li");
-            originItem.innerHTML = data[muscle].origin[origin];
-            originList.appendChild(originItem);
-        }
-        
-        const insertionLabel = document.createElement("div");
-        insertionLabel.classList.add("label");
-        insertionLabel.innerText = "Insertie";
-
-        const insertionList = document.createElement("ul");
-        for (let insertion = 0; insertion < data[muscle].insertion.length; insertion++) {
-            const insertionItem = document.createElement("li");
-            insertionItem.innerHTML = data[muscle].insertion[insertion];
-            insertionList.appendChild(insertionItem);
-        }
-        
-        const functionLabel = document.createElement("div");
-        functionLabel.classList.add("label");
-        functionLabel.innerText = "Functie";
-
-        const functionList = document.createElement("ul");
-        for (let f = 0; f < data[muscle].function.length; f++) {
-            const functionItem = document.createElement("li");
-            functionItem.innerHTML = data[muscle].function[f];
-            functionList.appendChild(functionItem);
-        }
-       
-
-        card.appendChild(nameLabel);
-        card.appendChild(nameList);
-
-        card.appendChild(originLabel);
-        card.appendChild(originList);
-
-        card.appendChild(insertionLabel);
-        card.appendChild(insertionList);
-
-        card.appendChild(functionLabel);
-        card.appendChild(functionList);
-
-        if (muscle % 10 === 0) {
-            let title = document.createElement("div");
-            title.classList.add("title");
-            title.innerText = `Groep ${muscle * 0.1 + 1}`;
-            container.appendChild(title);
-        }
-
-        container.appendChild(card);
-    }
-})();
+]
