@@ -900,7 +900,9 @@
     {
         "name": "Adductor magnus",
         "origin": [
-            "Facies pelvina van het os sacrum"
+            "r. inferior van het os pubis",
+            "r.ossis ischii",
+            "tuber ischiadicum"
         ],
         "insertion": [
             "Epicondylus medialis van het femur"
