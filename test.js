@@ -914,17 +914,18 @@ const data = [
         "name": "Adductor magnus",
         "origin": [
             "r. inferior van het os pubis",
-            "r.ossis ischii",
+            "r. ossis ischii",
             "tuber ischiadicum"
         ],
         "insertion": [
-            "Epicondylus medialis van het femur"
+            "Epicondylus medialis van het femur",
+            "Labium mediale van het linea aspera"
         ],
         "function": [
             "Exorotatie in het heupgewricht",
-            "Abductie in het heupgewricht",
+            "Adductie in het heupgewricht",
             "Extensie in het heupgewricht",
-            "Stabilisatie van het heupgewricht"
+            "Stabilisatie van de bekken in het sagittale en frontale vlak"
         ]
     },
     {
