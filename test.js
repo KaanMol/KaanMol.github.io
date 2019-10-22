@@ -913,10 +913,12 @@ const data = [
     {
         "name": "Adductor magnus",
         "origin": [
-            "Facies pelvina van het os sacrum"
+            "r. inferior van het os pubis",
+            "r.ossis ischii",
+            "tuber ischiadicum"
         ],
         "insertion": [
-            "Punt van de trochantor major van het femur"
+            "Epicondylus medialis van het femur"
         ],
         "function": [
             "Exorotatie in het heupgewricht",
