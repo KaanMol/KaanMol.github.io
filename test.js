@@ -925,7 +925,7 @@ const data = [
             "Exorotatie in het heupgewricht",
             "Adductie in het heupgewricht",
             "Extensie in het heupgewricht",
-            "Stabilisatie van de bekken in het sagittale en frontale vlak"
+            "Stabilisatie van het bekken in het sagittale en frontale vlak"
         ]
     },
     {
@@ -1016,7 +1016,7 @@ const data = [
     {
         "name": "Psoas major diepe laag",
         "origin": [
-            "Proccessus costarii van de L1 tot en met L5"
+            "Proccessus transversii van de L1 tot en met L5"
         ],
         "insertion": [
             "Gezamelijk als m. iliopsoas aan de trochantor minor van het femur"
